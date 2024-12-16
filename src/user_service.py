@@ -10,14 +10,22 @@ def load_data():
         DATA_CACHE = []
         with open('data/users.csv') as f:
             r = csv.reader(f)
+            header = next(r, None)  # Skip the header row if present
             for row in r:
-                if len(row) < 4:
+                # Expecting these fields:
+                # user_id,name,email,signup_date,age,height_cm,weight_kg,activity_level,health_goals
+                if len(row) < 9:
                     continue
                 DATA_CACHE.append({
                     "user_id": row[0],
                     "name": row[1],
                     "email": row[2],
-                    "signup_date": row[3]
+                    "signup_date": row[3],
+                    "age": row[4],
+                    "height_cm": row[5],
+                    "weight_kg": row[6],
+                    "activity_level": row[7],
+                    "health_goals": row[8],
                 })
     return DATA_CACHE
 
@@ -58,6 +66,7 @@ def handle_cli(args):
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
+        # example endpoint: /user?id=123 or /user?name=alice
         query = urllib.parse.urlparse(self.path).query
         params = urllib.parse.parse_qs(query)
         self.send_response(200)
