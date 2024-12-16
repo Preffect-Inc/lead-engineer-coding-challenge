@@ -24,6 +24,9 @@ Your pipeline can be triggered by a management command (e.g. `python manage.py r
 - Provide a Dockerfile and ensure the project can run in a container.
 - Document your solution, design decisions, and instructions for running the code and tests in this README.
 
+### Time Expectation
+This exercise is scoped to about 6 hours. We do not expect a production-ready final product, but we want to see how you think and what trade-offs you make.
+
 ### Running the Base Project
 
 ```bash
@@ -33,6 +36,4 @@ python manage.py load_users
 python manage.py runserver
 
 
-### Time Expectation
-This exercise is scoped to about 6 hours. We do not expect a production-ready final product, but we want to see how you think and what trade-offs you make.
 
