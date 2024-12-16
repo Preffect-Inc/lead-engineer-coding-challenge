@@ -1,0 +1,12 @@
+```csv
+user_id,name,email,signup_date,age,height_cm,weight_kg,activity_level,health_goals
+1,Alice Smith,alice@example.com,2021-01-10,30,165,60,Moderate,Weight Loss
+2,Bob Johnson,bob@example.com,2021-02-15,45,178,85,Low,Heart Health
+3,Charlie Brown,charlie@example.com,2021-03-20,25,170,70,High,Muscle Gain
+4,Diana Prince,diana@example.com,2021-04-12,38,160,55,Moderate,Overall Wellness
+5,Evan Wright,evan@example.com,2021-05-30,50,182,90,Low,Diabetes Management
+6,Fiona Green,fiona@example.com,2021-06-25,29,155,50,High,Endurance Training
+7,George Hill,george@example.com,2021-07-15,60,175,78,Moderate,Healthy Aging
+8,Hannah Lee,hannah@example.com,2021-08-01,35,168,68,Low,Stress Reduction
+9,Ian Carter,ian@example.com,2021-09-10,42,180,80,High,Weight Maintenance
+10,Julia Adams,julia@example.com,2021-10-05,27,162,52,Moderate,Flexibility
