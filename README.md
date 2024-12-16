@@ -31,3 +31,8 @@ pip install -r requirements.txt
 python manage.py migrate
 python manage.py load_users
 python manage.py runserver
+
+
+### Time Expectation
+This exercise is scoped to about 6 hours. We do not expect a production-ready final product, but we want to see how you think and what trade-offs you make.
+
