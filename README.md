@@ -1,3 +1,15 @@
+# Preffect Coding Challenge
+
+In order to help us assess your skills as a developer and ability to navigate external services, please complete the exercise outlined below. We’re looking for demonstration of:
+- Thoughtful product design with scalability in mind
+- Clean, well-structured, and performant code
+- Creativity in implementation
+  
+In case something is unclear or you have any questions regarding the task, please do not hesitate to contact us at ryanne@preffect.com
+
+Happy coding!
+
+
 ## Overview
 
 You have a Django-based project that already loads users from `data/users.csv` and exposes them at `/users/`. However, there’s a file `app/legacy_service.py` which contains messy, standalone logic for loading users, searching them, and serving them via a basic HTTP server. Your first task is to **refactor and integrate this legacy code into the Django application** in a clean, maintainable scalable way.
@@ -25,7 +37,7 @@ Your pipeline can be triggered by a management command (e.g. `python manage.py r
 - Document your solution, design decisions, and instructions for running the code and tests in this README.
 
 ### Time Expectation
-This exercise is scoped to about 6 hours. We do not expect a production-ready final product, but we want to see how you think and what trade-offs you make.
+This exercise is scoped to about 6-8 hours. We do not expect a production-ready final product, but we want to see how you think and what trade-offs you make.
 
 ### Running the Base Project
 
