@@ -43,6 +43,7 @@ This exercise is scoped to about 4-8 hours. We do not expect a production-ready 
 
 ```bash
 pip install -r requirements.txt
+python manage.py makemigrations app
 python manage.py migrate
 python manage.py load_users
 python manage.py runserver
