@@ -12,7 +12,7 @@ Happy coding!
 
 ## Overview
 
-You have a Django-based project that already loads users from `data/users.csv` and exposes them at `/users/`. However, there’s a file `app/legacy_service.py` which contains messy, standalone logic for loading users, searching them, and serving them via a basic HTTP server. Your first task is to **refactor and integrate this legacy code into the Django application** in a clean, maintainable scalable way.
+You have a Django-based project that already loads users from `data/users.csv` and exposes them at `/users/`. However, there’s a file `app/legacy_service.py` which contains messy, standalone logic for loading users, searching them, and serving them via a basic HTTP server. Your first task is to **refactor and integrate this legacy code into the Django application** in a clean, maintainable, and scalable way.
 
 After refactoring:
 
@@ -34,10 +34,10 @@ Your pipeline can be triggered by a management command (e.g. `python manage.py r
 - Write tests (unit and/or integration) for the notification pipeline and the refactored user lookup logic.
 - Integrate tests into the provided CI workflow.
 - Provide a Dockerfile and ensure the project can run in a container.
-- Document your solution, design decisions, and instructions for running the code and tests in this README.
+- Document your solution, design decisions, and instructions for running the code and tests.
 
 ### Time Expectation
-This exercise is scoped to about 6-8 hours. We do not expect a production-ready final product, but we want to see how you think and what trade-offs you make.
+This exercise is scoped to about 4-8 hours. We do not expect a production-ready final product, but we want to see how you think and what trade-offs you make.
 
 ### Running the Base Project
 
